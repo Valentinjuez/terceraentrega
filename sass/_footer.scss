@@ -1,0 +1,45 @@
+/*footer*/
+
+.footer {
+    background-color: $color-grisoscuro;
+    color: $color-blanco;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerContenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.infoContacto p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.redesSociales a {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: $color-blanco;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 2rem;
+
+    &:hover {
+        color: $color-crimson;
+    }
+}
+
+.footer i {
+    margin-right: 10px;
+}

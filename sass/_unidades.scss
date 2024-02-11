@@ -1,0 +1,40 @@
+/*unidades*/
+
+.unidades {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid $color-negro;
+
+    h2 {
+        color: $color-negro;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: $color-negro;
+        padding: 10px;
+    }
+}
+
+.contenedorunidades {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.unidades {
+    img {
+        border: 2px solid $color-negro;
+    }
+
+    ul li {
+        list-style: none;
+        display: list-item;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+}

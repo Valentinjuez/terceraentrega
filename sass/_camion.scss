@@ -1,0 +1,49 @@
+/*camion*/
+
+@mixin anclas{
+    text-decoration: none;
+    color: rgb(255, 100, 100);
+
+}
+
+.camion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-rojotenue;
+    border: 1px solid $color-negro;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+
+    a {
+        @include anclas;
+        font-size: 24px;
+    }
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: rgb(255, 100, 100);
+        color: $color-blanco;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        border: 1px solid black;
+
+        &:hover {
+            background-color: $color-crimson;
+        }
+    }
+
+

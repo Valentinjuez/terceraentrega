@@ -1,0 +1,43 @@
+/*vista tablet*/
+@media (max-width:1023px){
+    /*header*/
+    .encabezado{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    /*banner*/
+    .BannerContenido p{
+        font-size: 1.5rem;
+    }
+    /*unidades*/
+    .contenedorunidades {
+        grid-template-columns: 1fr;
+        }
+
+        .unidades img {
+            max-width: 100%;
+        }
+
+
+        .unidades h3,
+        .unidades p{
+            font-size: 2rem;
+        }
+
+    /*footer*/
+    .footerContenido{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*vista movil*/
+
+@media (max-width:768px) {
+    /*unidades*/
+
+    .contenedorunidades {
+        grid-template-columns: 1fr;
+    }
+}
